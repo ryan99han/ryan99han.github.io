@@ -1,0 +1,17 @@
+title: Ryan Han
+description: Notes on machine learning and musings on the industry
+baseurl: ""
+url: "https://ryan99han.github.io"
+
+markdown: kramdown
+theme: null
+
+plugins:
+  - jekyll-feed
+
+permalink: /:year/:month/:day/:slug/
+
+collections:
+  posts:
+    output: true
+    permalink: /:year/:month/:day/:slug/
