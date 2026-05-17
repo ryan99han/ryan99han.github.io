@@ -88,7 +88,6 @@ main {
 
 .site-header {
   margin-bottom: 3rem;
-  border-bottom: 1px solid var(--border);
   padding-bottom: 1rem;
 }
 
@@ -120,7 +119,6 @@ main {
 .site-footer {
   margin-top: 4rem;
   padding-top: 1rem;
-  border-top: 1px solid var(--border);
   text-align: center;
   color: var(--text-light);
   font-size: 0.9em;
@@ -134,11 +132,9 @@ main {
 .post-item {
   margin-bottom: 2.5rem;
   padding-bottom: 2.5rem;
-  border-bottom: 1px solid var(--border);
 }
 
 .post-item:last-child {
-  border-bottom: none;
 }
 
 .post-item h2 {
@@ -185,7 +181,6 @@ main {
 /* Post detail */
 .post-header {
   margin-bottom: 2rem;
-  border-bottom: 1px solid var(--border);
   padding-bottom: 1.5rem;
 }
 
@@ -210,7 +205,6 @@ main {
 .tag-filter {
   margin-bottom: 2rem;
   padding-bottom: 1rem;
-  border-bottom: 1px solid var(--border);
 }
 
 .tag-filter-label {
