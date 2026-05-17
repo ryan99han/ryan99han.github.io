@@ -87,7 +87,7 @@ main {
 }
 
 .site-header {
-  margin-bottom: 3rem;
+  margin-bottom: 1.5rem;
   padding-bottom: 1rem;
 }
 
@@ -199,6 +199,26 @@ main {
 
 .post-content h2 {
   margin-top: 2em;
+}
+
+/* Intro blurb */
+.intro {
+  margin-bottom: 2.5rem;
+  color: var(--text-light);
+  font-size: 1.05em;
+}
+
+.linkedin-link {
+  display: inline-flex;
+  align-items: center;
+  vertical-align: middle;
+  color: var(--text-light);
+  transition: color 0.2s;
+}
+
+.linkedin-link:hover {
+  color: var(--accent);
+  text-decoration: none;
 }
 
 /* Tag filter section */
