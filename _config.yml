@@ -4,6 +4,8 @@ baseurl: ""
 url: "https://ryan99han.github.io"
 
 markdown: kramdown
+kramdown:
+  math_engine: null
 theme: null
 
 plugins:
