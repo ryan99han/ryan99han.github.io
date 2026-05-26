@@ -175,6 +175,12 @@ main {
   text-decoration: none;
 }
 
+hr {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 2em 0;
+}
+
 /* Post detail */
 .post-header {
   margin-bottom: 1rem;
