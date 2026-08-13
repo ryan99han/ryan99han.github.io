@@ -166,7 +166,7 @@ $$L \geq \sum_{t=1}^T \mathbb{E}_{x_0, x_t}\Big[D_{KL}\big(q(x_{t-1} \mid x_t, x
 $$\min_\theta \sum_{t=1}^T \text{Distance}\big(q(x_{t-1} \mid x_t, x_0), p_\theta(x_{t-1} \mid x_t)\big)$$
 
 - Because both $q(x_{t-1} \mid x_t, x_0)$ and $p_\theta(x_{t-1} \mid x_t)$ are designed to be Gaussian distributions, they are defined entirely by their mean $\mu$ and covariance $\Sigma$. From above, we know the exact expressions for $\tilde{\mu}_t$ and variance $\tilde{\Sigma}_t$
-- In the popular DDPM formulation, the mean $\tilde{\mu}_t$ of the target posterior $q(x_{t-1} \mid x_t, x_0)$ can be expressed as a function of the noise added to create $x_t$ from $x_0$. The network is then re-parameterized to predict the noise $\epsilon$ instead of the mean $\mu$ directly
+- In the popular DDPM formulation, the mean $\tilde{\mu}\_t$ of the target posterior $q(x\_{t-1} \mid x\_t, x\_0)$ can be expressed as a function of the noise added to create $x\_t$ from $x\_0$. The network is then re-parameterized to predict the noise $\epsilon$ instead of the mean $\mu$ directly
 - Specifically, the neural network $\epsilon_\theta(x_t, t)$ is trained to predict the noise $\epsilon$ that was used to generate $x_t$ from $x_0$
 - This leads to a simpler and more stable mean squared error loss based on noise prediction
 
