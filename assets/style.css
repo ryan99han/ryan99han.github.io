@@ -232,6 +232,11 @@ hr {
   height: auto;
 }
 
+.post-content img.centered {
+  display: block;
+  margin: 0 auto;
+}
+
 /* Intro blurb */
 .intro {
   margin-bottom: 2.5rem;
