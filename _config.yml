@@ -2,6 +2,7 @@ title: Ryan Han
 description: Personal website
 baseurl: ""
 url: "https://ryan99han.com"
+future: true
 
 markdown: kramdown
 kramdown:
