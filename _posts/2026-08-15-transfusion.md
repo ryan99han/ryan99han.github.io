@@ -10,6 +10,8 @@ Transfusion trains a single transformer on both text and images using a differen
 
 ---
 
+![Transfusion](/assets/images/transfusion.png)
+
 ## Data
 - Each text string is tokenized into a sequence of discrete tokens from a fixed vocabulary
 - Each image is encoded via a variational autoencoder (VAE) as latent patches
