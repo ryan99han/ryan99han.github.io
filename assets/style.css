@@ -145,6 +145,20 @@ main {
   text-decoration: none;
 }
 
+.site-portrait-wrap {
+  max-width: 700px;
+  margin: 1rem auto 0;
+}
+
+.site-portrait {
+  display: block;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid var(--border);
+}
+
 .nav-links {
   display: flex;
   list-style: none;
